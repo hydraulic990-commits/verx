@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "tangerine-rr",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/mango" }
+  ],
+  "trailingSlash": false
+}
