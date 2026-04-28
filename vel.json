@@ -1,0 +1,8 @@
+{
+  "version": 33,
+  "name": "edge-secure",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/inda" }
+  ],
+  "trailingSlash": false
+}
