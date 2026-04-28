@@ -1,7 +1,7 @@
 export const config = { runtime: "edge" };
 
 // 🍋 آدرس سرور مقصد - یک بار خونده میشه و کش میشه
-const lemon = (process.env.TT_DN ?? "").replace(/\/+$/, "");
+const lemon = (process.env.TARGET_DOMAIN ?? "").replace(/\/+$/, "");
 
 // 🍇 هدرهایی که باید حذف بشن
 const grape = new Set([
